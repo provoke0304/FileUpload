@@ -7,9 +7,9 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="src/main.js"></script>
 </head>
-<body background="http://www.androidguys.com/wp-content/uploads/2016/05/Poly-Lakeside.jpg">
+<body background="">
 
-<div class="container" style="margin-top:  12%">
+
 
 <div class="row">
 <div class="col-lg-4"> </div>
@@ -38,7 +38,7 @@ if($this->session->flashdata('error_msg'))
 <div class="panel text-center">
 <div class="panel-body">
 <div class="form-group">
-	<h1 style="font-family: century gothic; font-weight: bold;">File Upload</h1> <br>
+	<h1 style=" font-weight: bold;">File Upload</h1> <br>
 
 <label>Picture</label>
 <input class="form-control" type="file" name="picture" />
